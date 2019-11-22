@@ -7,11 +7,16 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Weather {
+    @EnvironmentObject var userData: UserData
     
     private func apiRequest() {
-        let url = URL(string: "https://api.darksky.net/forecast/b0f71ae88b95c861a8a5e05ebef81cb0/37.8267,-122.4233")!
+        
+        let lat = userData.profile.coordinates.latitude
+        let lon = userData.profile.coordinates.longitude
+        let url = URL(string: "https://api.darksky.net/forecast/b0f71ae88b95c861a8a5e05ebef81cb0/"+lat+","+lon)!
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if let error = error {
                 print("error: \(error)")

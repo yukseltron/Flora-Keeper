@@ -56,22 +56,23 @@ struct CategoryHome: View {
                 
                 HStack(spacing: 50) {
                     Text("Your plants")
-                          .font(.headline)
-                          .fontWeight(.semibold)
+                        .font(.title)
+                        .fontWeight(.semibold)
                     
                     Image(systemName: "plus")
                         .foregroundColor(Color.blue)
                         .imageScale(.medium)
                         .accessibility(label: Text("Add a new plant"))
                 }
-                .padding(.leading)
+                .padding([.top, .leading])
             
 
-                CategoryRow(categoryName: "Dry", items: self.categories["Dry"]!)
+                CategoryRow(categoryName: "Moist", items: self.categories["Moist"]!)
 
                 CategoryRow(categoryName: "Damp", items: self.categories["Damp"]!)
 
-                CategoryRow(categoryName: "Moist", items: self.categories["Moist"]!)
+                CategoryRow(categoryName: "Dry", items: self.categories["Dry"]!)
+
 
                 
                 NavigationLink(destination: PlantList()) {
