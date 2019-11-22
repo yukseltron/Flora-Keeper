@@ -27,7 +27,7 @@ struct ProfileHost: View {
                 EditButton()
             }
             if self.mode?.wrappedValue == .inactive {
-                ProfileSummary(profile: self.userData.profile)
+                ProfileSummary(profile: userData.profile)
             } else {
                 ProfileEditor(profile: $draftProfile)
                     .onAppear {

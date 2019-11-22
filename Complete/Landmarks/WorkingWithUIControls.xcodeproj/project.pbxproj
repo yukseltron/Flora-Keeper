@@ -52,6 +52,12 @@
 		B7D587DD22A08DD6006E8DCF /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587DC22A08DD6006E8DCF /* HikeBadge.swift */; };
 		B7D587DF22A08E1A006E8DCF /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587DE22A08E1A006E8DCF /* ProfileEditor.swift */; };
 		ED44BB37238743790050D901 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44BB36238743790050D901 /* Weather.swift */; };
+		ED44BB4023887B430050D901 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3A23887B430050D901 /* 10.jpg */; };
+		ED44BB4123887B430050D901 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3B23887B430050D901 /* 2.jpg */; };
+		ED44BB4223887B430050D901 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3C23887B430050D901 /* 5.jpg */; };
+		ED44BB4323887B430050D901 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3D23887B430050D901 /* 7.jpg */; };
+		ED44BB4423887B430050D901 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3E23887B430050D901 /* 3.jpg */; };
+		ED44BB4523887B430050D901 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3F23887B430050D901 /* 8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +110,12 @@
 		B7D587DC22A08DD6006E8DCF /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		B7D587DE22A08E1A006E8DCF /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		ED44BB36238743790050D901 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		ED44BB3A23887B430050D901 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		ED44BB3B23887B430050D901 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		ED44BB3C23887B430050D901 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		ED44BB3D23887B430050D901 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		ED44BB3E23887B430050D901 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		ED44BB3F23887B430050D901 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +229,12 @@
 		B7394883229F291A00C47603 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ED44BB3B23887B430050D901 /* 2.jpg */,
+				ED44BB3E23887B430050D901 /* 3.jpg */,
+				ED44BB3C23887B430050D901 /* 5.jpg */,
+				ED44BB3D23887B430050D901 /* 7.jpg */,
+				ED44BB3F23887B430050D901 /* 8.png */,
+				ED44BB3A23887B430050D901 /* 10.jpg */,
 				B739488E229F292E00C47603 /* plantData.json */,
 				B7D587BF229F830B006E8DCF /* hikeData.json */,
 				B7394890229F292F00C47603 /* chilkoottrail.jpg */,
@@ -303,14 +321,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED44BB4523887B430050D901 /* 8.png in Resources */,
 				B739489A229F292F00C47603 /* silversalmoncreek.jpg in Resources */,
+				ED44BB4223887B430050D901 /* 5.jpg in Resources */,
 				B7394894229F292F00C47603 /* lakemcdonald.jpg in Resources */,
+				ED44BB4323887B430050D901 /* 7.jpg in Resources */,
 				B7D587C0229F830B006E8DCF /* hikeData.json in Resources */,
 				B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */,
+				ED44BB4023887B430050D901 /* 10.jpg in Resources */,
 				B73948A3229F3E2200C47603 /* charleyrivers.jpg in Resources */,
 				B7394891229F292F00C47603 /* rainbowlake.jpg in Resources */,
 				B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */,
 				B7394895229F292F00C47603 /* turtlerock.jpg in Resources */,
+				ED44BB4423887B430050D901 /* 3.jpg in Resources */,
+				ED44BB4123887B430050D901 /* 2.jpg in Resources */,
 				B739486C229F194200C47603 /* Assets.xcassets in Resources */,
 				B7394899229F292F00C47603 /* twinlake.jpg in Resources */,
 				B7394896229F292F00C47603 /* umbagog.jpg in Resources */,

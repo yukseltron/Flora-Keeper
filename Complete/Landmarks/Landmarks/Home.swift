@@ -55,14 +55,16 @@ struct CategoryHome: View {
                 }
                 
                 HStack(spacing: 50) {
-                    Text("Your plants")
-                        .font(.title)
-                        .fontWeight(.semibold)
+                    Text("Add new")
+                        .font(.headline)
+                        .fontWeight(.regular)
+                        .foregroundColor(Color.blue)
                     
                     Image(systemName: "plus")
                         .foregroundColor(Color.blue)
-                        .imageScale(.medium)
+                        .imageScale(.small)
                         .accessibility(label: Text("Add a new plant"))
+                        .padding(.leading, -40)
                 }
                 .padding([.top, .leading])
             
@@ -81,7 +83,7 @@ struct CategoryHome: View {
                 .padding()
                 
             }
-            .navigationBarTitle(Text("Today"))
+            .navigationBarTitle(Text("Your Plants"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
                 ProfileHost().environmentObject(self.userData)

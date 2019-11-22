@@ -13,14 +13,14 @@ struct Profile {
     var goalDate: Date
     var coordinates: Coordinates
     
-    static let `default` = Self(username: "Artemis", prefersNotifications: true, seasonalPhoto: .winter, latitude: "0.0", longitude: "0.0")
+    static let `default` = Self(username: "Artemis", prefersNotifications: true, seasonalPhoto: .winter, coordinates: Coordinates(latitude: "1.0",longitude: "0.0"))
     
-    init(username: String, prefersNotifications: Bool = true, seasonalPhoto: Season = .winter, latitude: String, longitude: String) {
+    init(username: String, prefersNotifications: Bool = true, seasonalPhoto: Season = .winter, coordinates: Coordinates) {
         self.username = username
         self.prefersNotifications = prefersNotifications
         self.seasonalPhoto = seasonalPhoto
         self.goalDate = Date()
-        self.coordinates = Coordinates(latitude: latitude, longitude: longitude)
+        self.coordinates = coordinates
     }
     
     enum Season: String, CaseIterable {

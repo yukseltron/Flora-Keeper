@@ -35,7 +35,7 @@ struct CategoryRow: View {
                 }
                 
                 
-                Text("Prefers " + self.categoryName + " soil")
+                Text(self.categoryName + " soil")
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .padding(.top, 5)
@@ -83,9 +83,9 @@ struct CategoryItem: View {
                     .font(.caption)
                     .italic()
             }
-            .padding(.leading, 55)
+            .padding(.leading)
         }
-        .padding(.leading, 15)
+        .padding(10)
     }
 }
 

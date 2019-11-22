@@ -4,7 +4,7 @@
         "name": "Sofia",
         "soilPref": "Moist",
         "species": "Pothos",
-        "imageName": "chilkoottrail",
+        "imageName": "2",
         "lightLevel": "Medium",
         "isFavorite": true
     },
@@ -13,7 +13,7 @@
         "name": "Arya",
         "soilPref": "Moist",
         "species": "Lucky Bamboo",
-        "imageName": "hiddenlake",
+        "imageName": "3",
         "lightLevel": "Low",
         "isFavorite": false
     },
@@ -22,7 +22,7 @@
         "name": "Mariam",
         "soilPref": "Dry",
         "species": "Dracanea",
-        "imageName": "icybay",
+        "imageName": "5",
         "lightLevel": "High",
         "isFavorite": true
     },
@@ -31,7 +31,7 @@
         "name": "Gina",
         "soilPref": "Dry",
         "species": "Pothos",
-        "imageName": "stmarylake",
+        "imageName": "7",
         "lightLevel": "High",
         "isFavorite": false
     },
@@ -40,7 +40,7 @@
         "name": "Cherry",
         "soilPref": "Damp",
         "species": "Money Tree",
-        "imageName": "twinlake",
+        "imageName": "7",
         "lightLevel": "Medium",
         "isFavorite": true
     },
@@ -49,7 +49,7 @@
         "name": "Sofia",
         "soilPref": "Moist",
         "species": "Pothos",
-        "imageName": "charleyrivers",
+        "imageName": "10",
         "lightLevel": "Low",
         "isFavorite": false
     }
