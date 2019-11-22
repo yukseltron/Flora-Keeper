@@ -13,7 +13,7 @@ struct Profile {
     var goalDate: Date
     var coordinates: Coordinates
     
-    static let `default` = Self(username: "Artemis", prefersNotifications: true, seasonalPhoto: .winter, coordinates: Coordinates(latitude: "1.0",longitude: "0.0"))
+    static let `default` = Self(username: "Artemis", prefersNotifications: true, seasonalPhoto: .winter, coordinates: Coordinates(latitude: "2.0",longitude: "0.0"))
     
     init(username: String, prefersNotifications: Bool = true, seasonalPhoto: Season = .winter, coordinates: Coordinates) {
         self.username = username

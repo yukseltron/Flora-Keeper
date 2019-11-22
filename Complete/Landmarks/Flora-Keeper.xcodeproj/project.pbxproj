@@ -58,6 +58,8 @@
 		ED44BB4323887B430050D901 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3D23887B430050D901 /* 7.jpg */; };
 		ED44BB4423887B430050D901 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3E23887B430050D901 /* 3.jpg */; };
 		ED44BB4523887B430050D901 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3F23887B430050D901 /* 8.png */; };
+		ED44BB47238884E80050D901 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB46238884E80050D901 /* Default-568h@2x.png */; };
+		ED44BB49238886400050D901 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44BB48238886400050D901 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +118,8 @@
 		ED44BB3D23887B430050D901 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		ED44BB3E23887B430050D901 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		ED44BB3F23887B430050D901 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		ED44BB46238884E80050D901 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED44BB48238886400050D901 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +153,8 @@
 		B7394859229F194000C47603 = {
 			isa = PBXGroup;
 			children = (
-				B7394864229F194000C47603 /* Landmarks */,
+				ED44BB46238884E80050D901 /* Default-568h@2x.png */,
+				B7394864229F194000C47603 /* Plants */,
 				B7394863229F194000C47603 /* Products */,
 				B3DAA720B3DA9FA000000001 /* Configuration */,
 				B5603A70B560321000000001 /* LICENSE */,
@@ -164,7 +169,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B7394864229F194000C47603 /* Landmarks */ = {
+		B7394864229F194000C47603 /* Plants */ = {
 			isa = PBXGroup;
 			children = (
 				B739487E229F282200C47603 /* Models */,
@@ -186,8 +191,9 @@
 				B7394870229F194200C47603 /* LaunchScreen.storyboard */,
 				B7394873229F194200C47603 /* Info.plist */,
 				B739486D229F194200C47603 /* Preview Content */,
+				ED44BB48238886400050D901 /* CurrentWeather.swift */,
 			);
-			path = Landmarks;
+			path = Plants;
 			sourceTree = "<group>";
 		};
 		B739486D229F194200C47603 /* Preview Content */ = {
@@ -298,7 +304,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B739485D229F194000C47603 /* Build configuration list for PBXProject "WorkingWithUIControls" */;
+			buildConfigurationList = B739485D229F194000C47603 /* Build configuration list for PBXProject "Flora-Keeper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -326,6 +332,7 @@
 				ED44BB4223887B430050D901 /* 5.jpg in Resources */,
 				B7394894229F292F00C47603 /* lakemcdonald.jpg in Resources */,
 				ED44BB4323887B430050D901 /* 7.jpg in Resources */,
+				ED44BB47238884E80050D901 /* Default-568h@2x.png in Resources */,
 				B7D587C0229F830B006E8DCF /* hikeData.json in Resources */,
 				B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */,
 				ED44BB4023887B430050D901 /* 10.jpg in Resources */,
@@ -381,6 +388,7 @@
 				B7D587DB22A08D67006E8DCF /* ProfileSummary.swift in Sources */,
 				B7D2AAC5229F4D7C0061E5F5 /* UserData.swift in Sources */,
 				B7394881229F28B900C47603 /* Plant.swift in Sources */,
+				ED44BB49238886400050D901 /* CurrentWeather.swift in Sources */,
 				B7D587DF22A08E1A006E8DCF /* ProfileEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,10 +529,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "Landmarks/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "Plants/Preview\\ Content";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_FILE = Plants/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,10 +551,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "Landmarks/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "Plants/Preview\\ Content";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_FILE = Plants/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B739485D229F194000C47603 /* Build configuration list for PBXProject "WorkingWithUIControls" */ = {
+		B739485D229F194000C47603 /* Build configuration list for PBXProject "Flora-Keeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7394874229F194200C47603 /* Debug */,

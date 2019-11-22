@@ -45,26 +45,14 @@ struct CategoryHome: View {
         NavigationView {
             
             List {
-                
-                if (UserData().profile.coordinates.latitude == "0.0") {
-                    Text("Please set a location in your profile to get daily weather")
-                    .padding()
+                //Text(Weather().requestTest())
                     
-                } else {
-                    Text(Weather().requestTest())
-                }
                 
                 HStack(spacing: 50) {
                     Text("Add new")
                         .font(.headline)
                         .fontWeight(.regular)
                         .foregroundColor(Color.blue)
-                    
-                    Image(systemName: "plus")
-                        .foregroundColor(Color.blue)
-                        .imageScale(.small)
-                        .accessibility(label: Text("Add a new plant"))
-                        .padding(.leading, -40)
                 }
                 .padding([.top, .leading])
             

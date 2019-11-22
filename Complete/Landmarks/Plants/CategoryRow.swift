@@ -70,7 +70,7 @@ struct CategoryItem: View {
                 .renderingMode(.original)
                 .resizable()
                 .frame(width: 155, height: 155)
-                .cornerRadius(50)
+                .cornerRadius(20)
             
             VStack(alignment: .leading) {
                 Text(plant.name)
