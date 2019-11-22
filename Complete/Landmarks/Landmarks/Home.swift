@@ -46,22 +46,39 @@ struct CategoryHome: View {
             
             List {
                 
-                if (UserData().profile.username == "") {
-                    Text("Please set a location")
+                if (UserData().profile.coordinates.latitude == "0.0") {
+                    Text("Please set a location in your profile to get daily weather")
+                    .padding()
+                    
                 } else {
                     Text(Weather().requestTest())
                 }
                 
-                ForEach(categories.keys.sorted(), id: \.self) { key in
-                    CategoryRow(categoryName: key, items: self.categories[key]!)
+                HStack(spacing: 50) {
+                    Text("Your plants")
+                          .font(.headline)
+                          .fontWeight(.semibold)
+                    
+                    Image(systemName: "plus")
+                        .foregroundColor(Color.blue)
+                        .imageScale(.medium)
+                        .accessibility(label: Text("Add a new plant"))
                 }
+                .padding(.leading)
+            
+
+                CategoryRow(categoryName: "Dry", items: self.categories["Dry"]!)
+
+                CategoryRow(categoryName: "Damp", items: self.categories["Damp"]!)
+
+                CategoryRow(categoryName: "Moist", items: self.categories["Moist"]!)
 
                 
                 NavigationLink(destination: PlantList()) {
                     Text("See All")
                 }
-                .padding(.leading)
-                .padding(.top)
+                .padding()
+                
             }
             .navigationBarTitle(Text("Today"))
             .navigationBarItems(trailing: profileButton)

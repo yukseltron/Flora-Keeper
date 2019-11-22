@@ -14,15 +14,30 @@ struct CategoryRow: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .bottom, spacing: 10) {
-                Rectangle()
-                    .cornerRadius(10)
-                    .frame(width: 15, height: 15)
-                    .foregroundColor(Color.red)
-                    .padding(.leading, 15)
-    
+                if (self.categoryName == "Dry") {
+                    Rectangle()
+                        .cornerRadius(10)
+                        .frame(width: 15, height: 15)
+                        .foregroundColor(Color(red: 243/255, green: 198/255, blue: 119/255, opacity: 1.0))
+                        .padding(.leading, 15)
+                } else if (self.categoryName == "Damp") {
+                    Rectangle()
+                        .cornerRadius(10)
+                        .frame(width: 15, height: 15)
+                        .foregroundColor(Color(red: 119/255, green: 82/255, blue: 83/255, opacity: 1.0))
+                        .padding(.leading, 15)
+                } else {
+                    Rectangle()
+                        .cornerRadius(10)
+                        .frame(width: 15, height: 15)
+                        .foregroundColor(Color(red: 80/255, green: 65/255, blue: 64/255, opacity: 1.0))
+                        .padding(.leading, 15)
+                }
+                
                 
                 Text("Prefers " + self.categoryName + " soil")
-                    .font(.headline)
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
                     .padding(.top, 5)
             }
             .padding(.top, 15)

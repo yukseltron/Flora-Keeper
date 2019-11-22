@@ -24,9 +24,9 @@ struct ProfileSummary: View {
                 .font(.title)
             
             HStack {
-                Text("Latitude: \(String(format: "%.2f", self.profile.coordinates.latitude))")
+                Text("Latitude: \(self.profile.coordinates.latitude)")
                 
-                Text("Longitude: \(String(format: "%.2f", self.profile.coordinates.longitude))")
+                Text("Longitude: \(self.profile.coordinates.longitude)")
             }
             
             Text("Notifications: \(self.profile.prefersNotifications ? "On": "Off" )")
