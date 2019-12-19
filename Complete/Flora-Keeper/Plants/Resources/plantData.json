@@ -4,7 +4,7 @@
         "name": "Sofia",
         "soilPref": "Damp",
         "species": "Dracaena",
-        "imageName": "2",
+        "imageName": "dracaena",
         "lightLevel": "Low",
         "isFavorite": false
     },
@@ -13,7 +13,7 @@
         "name": "Arya",
         "soilPref": "Damp",
         "species": "Jade Plant",
-        "imageName": "3",
+        "imageName": "jade",
         "lightLevel": "High",
         "isFavorite": false
     },
@@ -31,7 +31,7 @@
         "name": "Gina",
         "soilPref": "Moist",
         "species": "Marimo Moss Ball",
-        "imageName": "7",
+        "imageName": "mossball",
         "lightLevel": "Low",
         "isFavorite": false
     },

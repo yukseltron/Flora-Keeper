@@ -36,6 +36,9 @@
 		ED44BB47238884E80050D901 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB46238884E80050D901 /* Default-568h@2x.png */; };
 		ED44BB49238886400050D901 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44BB48238886400050D901 /* CurrentWeather.swift */; };
 		ED85F2D123ABF429009F3C63 /* PlantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED85F2D023ABF429009F3C63 /* PlantData.swift */; };
+		EDBEF97A23AC264400AF15F9 /* mossball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBEF97923AC264400AF15F9 /* mossball.jpg */; };
+		EDBEF97C23AC26B100AF15F9 /* dracaena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBEF97B23AC26B100AF15F9 /* dracaena.jpg */; };
+		EDBEF97E23AC277000AF15F9 /* jade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBEF97D23AC277000AF15F9 /* jade.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,9 @@
 		ED44BB46238884E80050D901 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		ED44BB48238886400050D901 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		ED85F2D023ABF429009F3C63 /* PlantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantData.swift; sourceTree = "<group>"; };
+		EDBEF97923AC264400AF15F9 /* mossball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mossball.jpg; sourceTree = "<group>"; };
+		EDBEF97B23AC26B100AF15F9 /* dracaena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dracaena.jpg; sourceTree = "<group>"; };
+		EDBEF97D23AC277000AF15F9 /* jade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jade.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +182,9 @@
 		B7394883229F291A00C47603 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EDBEF97D23AC277000AF15F9 /* jade.jpg */,
+				EDBEF97B23AC26B100AF15F9 /* dracaena.jpg */,
+				EDBEF97923AC264400AF15F9 /* mossball.jpg */,
 				ED44BB3B23887B430050D901 /* 2.jpg */,
 				ED44BB3E23887B430050D901 /* 3.jpg */,
 				ED44BB3C23887B430050D901 /* 5.jpg */,
@@ -255,8 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBEF97A23AC264400AF15F9 /* mossball.jpg in Resources */,
 				ED44BB4523887B430050D901 /* 8.png in Resources */,
 				ED44BB4223887B430050D901 /* 5.jpg in Resources */,
+				EDBEF97E23AC277000AF15F9 /* jade.jpg in Resources */,
 				ED44BB4323887B430050D901 /* 7.jpg in Resources */,
 				ED44BB47238884E80050D901 /* Default-568h@2x.png in Resources */,
 				B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */,
@@ -266,6 +277,7 @@
 				ED44BB4123887B430050D901 /* 2.jpg in Resources */,
 				B739486C229F194200C47603 /* Assets.xcassets in Resources */,
 				B739489B229F292F00C47603 /* plantData.json in Resources */,
+				EDBEF97C23AC26B100AF15F9 /* dracaena.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
