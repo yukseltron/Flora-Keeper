@@ -1,2 +1,2 @@
-# Flora-Journal
-A journal for watering your house plants
+# Flora-Keeper
+A guide for taking care and watering your house plants
