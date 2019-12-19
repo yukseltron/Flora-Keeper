@@ -2,37 +2,37 @@
     {
         "id": 1001,
         "name": "Sofia",
-        "soilPref": "Moist",
-        "species": "Pothos",
+        "soilPref": "Damp",
+        "species": "Dracaena",
         "imageName": "2",
-        "lightLevel": "Medium",
-        "isFavorite": true
+        "lightLevel": "Low",
+        "isFavorite": false
     },
     {
         "id": 1002,
         "name": "Arya",
-        "soilPref": "Moist",
-        "species": "Lucky Bamboo",
+        "soilPref": "Damp",
+        "species": "Jade Plant",
         "imageName": "3",
-        "lightLevel": "Low",
+        "lightLevel": "High",
         "isFavorite": false
     },
     {
         "id": 1003,
         "name": "Mariam",
-        "soilPref": "Dry",
-        "species": "Dracanea",
+        "soilPref": "Damp",
+        "species": "Kangaroo Paw Fern",
         "imageName": "5",
-        "lightLevel": "High",
-        "isFavorite": true
+        "lightLevel": "Medium",
+        "isFavorite": false
     },
     {
         "id": 1004,
         "name": "Gina",
-        "soilPref": "Dry",
-        "species": "Pothos",
+        "soilPref": "Moist",
+        "species": "Marimo Moss Ball",
         "imageName": "7",
-        "lightLevel": "High",
+        "lightLevel": "Low",
         "isFavorite": false
     },
     {
@@ -42,15 +42,133 @@
         "species": "Money Tree",
         "imageName": "7",
         "lightLevel": "Medium",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 1006,
+        "name": "Sofia",
+        "soilPref": "Dry",
+        "species": "Monstera",
+        "imageName": "10",
+        "lightLevel": "High",
+        "isFavorite": false
+    },
+    {
+        "id": 1007,
+        "name": "Sofia",
+        "soilPref": "Dry",
+        "species": "Kalanchoe",
+        "imageName": "5",
+        "lightLevel": "High",
+        "isFavorite": false
+    },
+    {
+        "id": 1008,
+        "name": "Sofia",
+        "soilPref": "Moist",
+        "species": "Oxalis",
+        "imageName": "7",
+        "lightLevel": "High",
+        "isFavorite": false
+    },
+    {
+        "id": 1009,
+        "name": "Sofia",
+        "soilPref": "Moist",
+        "species": "Peace Lily",
+        "imageName": "10",
+        "lightLevel": "Low",
+        "isFavorite": false
+    },
+    {
+        "id": 1010,
+        "name": "Sofia",
+        "soilPref": "Moist",
+        "species": "Philodendron Vines",
+        "imageName": "5",
+        "lightLevel": "Medium",
+        "isFavorite": false
+    },
+    {
+        "id": 1011,
+        "name": "Sofia",
+        "soilPref": "Moist",
+        "species": "Pilea",
+        "imageName": "7",
+        "lightLevel": "Medium",
+        "isFavorite": false
+    },
+    {
+        "id": 1012,
+        "name": "Sofia",
+        "soilPref": "Damp",
+        "species": "Ponytail Palm",
+        "imageName": "2",
+        "lightLevel": "Medium",
+        "isFavorite": false
+    },
+    {
+        "id": 1013,
         "name": "Sofia",
         "soilPref": "Moist",
         "species": "Pothos",
         "imageName": "10",
         "lightLevel": "Low",
         "isFavorite": false
+    },
+    {
+        "id": 1014,
+        "name": "Sofia",
+        "soilPref": "Moist",
+        "species": "Prayer Plant",
+        "imageName": "10",
+        "lightLevel": "Medium",
+        "isFavorite": false
+    },
+    {
+        "id": 1015,
+        "name": "Sofia",
+        "soilPref": "Damp",
+        "species": "Rabbit's Foot Fern",
+        "imageName": "3",
+        "lightLevel": "Medium",
+        "isFavorite": false
+    },
+    {
+        "id": 1016,
+        "name": "Sofia",
+        "soilPref": "Dry",
+        "species": "Snake Plant",
+        "imageName": "2",
+        "lightLevel": "Medium",
+        "isFavorite": false
+    },
+    {
+        "id": 1017,
+        "name": "Sofia",
+        "soilPref": "Moist",
+        "species": "Staghorn Fern",
+        "imageName": "7",
+        "lightLevel": "High",
+        "isFavorite": false
+    },
+    {
+        "id": 1018,
+        "name": "Sofia",
+        "soilPref": "Damp",
+        "species": "String of Hearts",
+        "imageName": "7",
+        "lightLevel": "Medium",
+        "isFavorite": false
+    },
+    {
+        "id": 1019,
+        "name": "Sofia",
+        "soilPref": "Dry",
+        "species": "ZZ Plant",
+        "imageName": "5",
+        "lightLevel": "Low",
+        "isFavorite": false
     }
+    
 ]
