@@ -1,4 +1,5 @@
 import SwiftUI
+import UserNotifications
 
 struct PlantDetail: View {
     @Environment(\.editMode) var mode
@@ -33,12 +34,12 @@ struct PlantDetail: View {
                         .font(.title)
                     
                     
-                    if (plant.lightLevel.rawValue == "Low") {
+                    if (plant.lightLevel.rawValue == "low") {
                          Rectangle()
                              .cornerRadius(20)
                              .frame(width: 20, height: 20)
                              .foregroundColor(Color(red: 255/255, green: 196/255, blue: 51/255, opacity: 1.0))
-                     } else if (plant.lightLevel.rawValue == "Medium") {
+                     } else if (plant.lightLevel.rawValue == "medium") {
                          Rectangle()
                              .cornerRadius(20)
                              .frame(width: 20, height: 20)
@@ -77,13 +78,13 @@ struct PlantDetail: View {
                         .font(.title)
                     
                     
-                    if (plant.lightLevel.rawValue == "Low") {
+                    if (plant.waterLevel.rawValue == "low") {
                          Rectangle()
                              .cornerRadius(20)
                              .frame(width: 20, height: 20)
                              .foregroundColor(Color(red: 64/255, green: 234/255, blue: 212/255, opacity: 1.0))
                         
-                     } else if (plant.lightLevel.rawValue == "Medium") {
+                     } else if (plant.waterLevel.rawValue == "medium") {
                           Rectangle()
                               .cornerRadius(20)
                               .frame(width: 20, height: 20)
@@ -126,7 +127,42 @@ struct PlantDetail: View {
             .sheet(isPresented: self.$multipleIsPresented, content: {
                 RKViewController(isPresented: self.$multipleIsPresented, rkManager: self.rkManager3)})
             Text(self.getTextFromDate(date: self.rkManager3.selectedDates.last))
+                .font(.headline)
+                .padding(.bottom)
+            
+            Button(action:{
+                let center = UNUserNotificationCenter.current()
+
+                center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+                    if granted {
+                        self.scheduleNotification(name: self.plant.name, quantity: self.plant.waterLevel.rawValue)
+                    } else {
+                        print("D'oh")
+                    }
+                }
+            }){
+                Text("Set Reminder").foregroundColor(.blue)
+            }
         }
+    }
+    
+    func scheduleNotification(name: String, quantity: String) {
+        let center = UNUserNotificationCenter.current()
+
+        let content = UNMutableNotificationContent()
+        content.title = name + " might be thirsty!"
+        content.body = "Check their soil, they prefer a " + quantity + " amount of water."
+        content.categoryIdentifier = "alarm"
+        content.userInfo = ["customData": "fizzbuzz"]
+        content.sound = UNNotificationSound.default
+
+        var dateComponents = DateComponents()
+        dateComponents.hour = 21
+        dateComponents.minute = 04
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        center.add(request)
     }
     
     func datesView(dates: [Date]) -> some View {
@@ -155,7 +191,7 @@ struct PlantDetail: View {
     func getTextFromDate(date: Date!) -> String {
         let formatter = DateFormatter()
         formatter.locale = .current
-        formatter.dateFormat = "EEEE, MMMM d, yyyy"
+        formatter.dateFormat = "EEEE, MMMM  d"
         return date == nil ? "" : formatter.string(from: date)
     }
 }

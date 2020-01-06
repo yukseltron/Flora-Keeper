@@ -8,7 +8,11 @@ struct PlantRow: View {
             plant.image
                 .resizable()
                 .frame(width: 50, height: 50)
+            Text(verbatim: plant.name)
             Text(verbatim: plant.species)
+                .font(.caption)
+                .italic()
+                .padding(.bottom, -4)
             Spacer()
 
             if plant.isFavorite {

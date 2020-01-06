@@ -14,7 +14,7 @@ struct CategoryHome: View {
     var categories: [String: [Plant]] {
         Dictionary(
             grouping: plantData,
-            by: { $0.soilPref.rawValue }
+            by: { $0.waterLevel.rawValue }
         )
     }
     
@@ -59,11 +59,11 @@ struct CategoryHome: View {
                 }
             
 
-                CategoryRow(categoryName: "Moist", items: self.categories["Moist"]!)
+                CategoryRow(categoryName: "Moist", items: self.categories["high"]!)
 
-                CategoryRow(categoryName: "Damp", items: self.categories["Damp"]!)
+                CategoryRow(categoryName: "Damp", items: self.categories["medium"]!)
 
-                CategoryRow(categoryName: "Dry", items: self.categories["Dry"]!)
+                CategoryRow(categoryName: "Dry", items: self.categories["low"]!)
 
 
                 
@@ -73,7 +73,7 @@ struct CategoryHome: View {
                 .padding()
                 
             }
-            .navigationBarTitle(Text("Plants"))
+            .navigationBarTitle(Text("Home"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
                 ProfileHost().environmentObject(self.userData)

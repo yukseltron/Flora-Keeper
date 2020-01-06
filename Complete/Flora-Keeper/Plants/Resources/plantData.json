@@ -2,172 +2,172 @@
     {
         "id": 1001,
         "name": "Sofia",
-        "soilPref": "Damp",
+        "waterLevel": "medium",
         "species": "Dracaena",
         "imageName": "dracaena",
-        "lightLevel": "Low",
-        "isFavorite": false
+        "lightLevel": "low",
+        "isFavorite": true
     },
     {
         "id": 1002,
         "name": "Arya",
-        "soilPref": "Damp",
+        "waterLevel": "medium",
         "species": "Jade Plant",
         "imageName": "jade",
-        "lightLevel": "High",
-        "isFavorite": false
+        "lightLevel": "high",
+        "isFavorite": true
     },
     {
         "id": 1003,
         "name": "Mariam",
-        "soilPref": "Damp",
+        "waterLevel": "medium",
         "species": "Kangaroo Paw Fern",
         "imageName": "5",
-        "lightLevel": "Medium",
-        "isFavorite": false
+        "lightLevel": "medium",
+        "isFavorite": true
     },
     {
         "id": 1004,
         "name": "Gina",
-        "soilPref": "Moist",
+        "waterLevel": "high",
         "species": "Marimo Moss Ball",
         "imageName": "mossball",
-        "lightLevel": "Low",
+        "lightLevel": "low",
         "isFavorite": false
     },
     {
         "id": 1005,
         "name": "Cherry",
-        "soilPref": "Damp",
+        "waterLevel": "medium",
         "species": "Money Tree",
         "imageName": "7",
-        "lightLevel": "Medium",
+        "lightLevel": "medium",
         "isFavorite": false
     },
     {
         "id": 1006,
         "name": "Sofia",
-        "soilPref": "Dry",
+        "waterLevel": "low",
         "species": "Monstera",
         "imageName": "10",
-        "lightLevel": "High",
+        "lightLevel": "high",
         "isFavorite": false
     },
     {
         "id": 1007,
         "name": "Sofia",
-        "soilPref": "Dry",
+        "waterLevel": "low",
         "species": "Kalanchoe",
         "imageName": "5",
-        "lightLevel": "High",
+        "lightLevel": "high",
         "isFavorite": false
     },
     {
         "id": 1008,
         "name": "Sofia",
-        "soilPref": "Moist",
+        "waterLevel": "high",
         "species": "Oxalis",
         "imageName": "7",
-        "lightLevel": "High",
+        "lightLevel": "high",
         "isFavorite": false
     },
     {
         "id": 1009,
         "name": "Sofia",
-        "soilPref": "Moist",
+        "waterLevel": "high",
         "species": "Peace Lily",
         "imageName": "10",
-        "lightLevel": "Low",
+        "lightLevel": "low",
         "isFavorite": false
     },
     {
         "id": 1010,
         "name": "Sofia",
-        "soilPref": "Moist",
+        "waterLevel": "high",
         "species": "Philodendron Vines",
         "imageName": "5",
-        "lightLevel": "Medium",
+        "lightLevel": "medium",
         "isFavorite": false
     },
     {
         "id": 1011,
         "name": "Sofia",
-        "soilPref": "Moist",
+        "waterLevel": "high",
         "species": "Pilea",
         "imageName": "7",
-        "lightLevel": "Medium",
+        "lightLevel": "medium",
         "isFavorite": false
     },
     {
         "id": 1012,
         "name": "Sofia",
-        "soilPref": "Damp",
+        "waterLevel": "medium",
         "species": "Ponytail Palm",
         "imageName": "2",
-        "lightLevel": "Medium",
+        "lightLevel": "medium",
         "isFavorite": false
     },
     {
         "id": 1013,
         "name": "Sofia",
-        "soilPref": "Moist",
+        "waterLevel": "high",
         "species": "Pothos",
         "imageName": "10",
-        "lightLevel": "Low",
+        "lightLevel": "low",
         "isFavorite": false
     },
     {
         "id": 1014,
         "name": "Sofia",
-        "soilPref": "Moist",
+        "waterLevel": "high",
         "species": "Prayer Plant",
         "imageName": "10",
-        "lightLevel": "Medium",
+        "lightLevel": "medium",
         "isFavorite": false
     },
     {
         "id": 1015,
         "name": "Sofia",
-        "soilPref": "Damp",
+        "waterLevel": "medium",
         "species": "Rabbit's Foot Fern",
         "imageName": "3",
-        "lightLevel": "Medium",
+        "lightLevel": "medium",
         "isFavorite": false
     },
     {
         "id": 1016,
         "name": "Sofia",
-        "soilPref": "Dry",
+        "waterLevel": "low",
         "species": "Snake Plant",
         "imageName": "2",
-        "lightLevel": "Medium",
+        "lightLevel": "medium",
         "isFavorite": false
     },
     {
         "id": 1017,
         "name": "Sofia",
-        "soilPref": "Moist",
+        "waterLevel": "high",
         "species": "Staghorn Fern",
         "imageName": "7",
-        "lightLevel": "High",
+        "lightLevel": "high",
         "isFavorite": false
     },
     {
         "id": 1018,
         "name": "Sofia",
-        "soilPref": "Damp",
+        "waterLevel": "medium",
         "species": "String of Hearts",
         "imageName": "7",
-        "lightLevel": "Medium",
+        "lightLevel": "medium",
         "isFavorite": false
     },
     {
         "id": 1019,
         "name": "Sofia",
-        "soilPref": "Dry",
+        "waterLevel": "low",
         "species": "ZZ Plant",
         "imageName": "5",
-        "lightLevel": "Low",
+        "lightLevel": "low",
         "isFavorite": false
     }
     

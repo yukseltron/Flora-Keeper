@@ -85,7 +85,7 @@ struct CategoryItem: View {
 struct CategoryRow_Previews: PreviewProvider {
     static var previews: some View {
         CategoryRow(
-            categoryName: plantData[0].soilPref.rawValue,
+            categoryName: plantData[0].waterLevel.rawValue,
             items: Array(plantData.prefix(4))
         )
         .environmentObject(UserData())
