@@ -40,9 +40,6 @@ struct CategoryHome: View {
             HStack(spacing: 50) {
                 Text("Add new plant")
                     .foregroundColor(.blue)
-                Image(systemName: "plus.circle")
-                    .imageScale(.large)
-                    .accessibility(label: Text("User Profile"))
             }
         }
     }
@@ -75,6 +72,7 @@ struct CategoryHome: View {
                 
             }
             .navigationBarTitle(Text("Plants"))
+                .padding(.leading, -10)
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
                 ProfileHost().environmentObject(self.userData)
