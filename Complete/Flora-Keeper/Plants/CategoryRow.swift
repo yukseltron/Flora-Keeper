@@ -30,7 +30,6 @@ struct CategoryRow: View {
                         .padding(.bottom, 3)
                 }
                 
-                
                 Text("Keep " + self.categoryName)
                     .font(.headline)
                     .fontWeight(.semibold)

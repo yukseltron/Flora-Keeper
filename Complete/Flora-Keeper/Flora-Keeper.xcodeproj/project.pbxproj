@@ -46,6 +46,7 @@
 		ED44BB47238884E80050D901 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB46238884E80050D901 /* Default-568h@2x.png */; };
 		ED44BB49238886400050D901 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44BB48238886400050D901 /* CurrentWeather.swift */; };
 		ED85F2D123ABF429009F3C63 /* PlantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED85F2D023ABF429009F3C63 /* PlantData.swift */; };
+		ED9E77AC23C3D08200F570FC /* WeekdayPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E77AB23C3D08200F570FC /* WeekdayPicker.swift */; };
 		EDBEF97A23AC264400AF15F9 /* mossball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBEF97923AC264400AF15F9 /* mossball.jpg */; };
 		EDBEF97C23AC26B100AF15F9 /* dracaena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBEF97B23AC26B100AF15F9 /* dracaena.jpg */; };
 		EDBEF97E23AC277000AF15F9 /* jade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBEF97D23AC277000AF15F9 /* jade.jpg */; };
@@ -95,6 +96,7 @@
 		ED44BB46238884E80050D901 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		ED44BB48238886400050D901 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		ED85F2D023ABF429009F3C63 /* PlantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantData.swift; sourceTree = "<group>"; };
+		ED9E77AB23C3D08200F570FC /* WeekdayPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayPicker.swift; sourceTree = "<group>"; };
 		EDBEF97923AC264400AF15F9 /* mossball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mossball.jpg; sourceTree = "<group>"; };
 		EDBEF97B23AC26B100AF15F9 /* dracaena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dracaena.jpg; sourceTree = "<group>"; };
 		EDBEF97D23AC277000AF15F9 /* jade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jade.jpg; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				ED12D02023C387D800AF506F /* Coordinator.swift */,
 				B7D587D322A08965006E8DCF /* CategoryRow.swift */,
 				B7394869229F194000C47603 /* PlantDetail.swift */,
+				ED9E77AB23C3D08200F570FC /* WeekdayPicker.swift */,
 				ED12D01E23C3831F00AF506F /* AddPlant.swift */,
 				ED12D01C23C382F000AF506F /* PlantEditor.swift */,
 				B73948A0229F2E1F00C47603 /* PlantList.swift */,
@@ -338,6 +341,7 @@
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				ED12D01523C2C34300AF506F /* RKColorSettings.swift in Sources */,
 				ED12D01923C2C34300AF506F /* RKDate.swift in Sources */,
+				ED9E77AC23C3D08200F570FC /* WeekdayPicker.swift in Sources */,
 				ED44BB37238743790050D901 /* Weather.swift in Sources */,
 				ED12D01A23C2C34400AF506F /* RKViewController.swift in Sources */,
 				B739486A229F194000C47603 /* PlantDetail.swift in Sources */,

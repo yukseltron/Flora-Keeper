@@ -46,7 +46,7 @@ func scheduleNotification(name: String, quantity: String) {
     content.sound = UNNotificationSound.default
 
     var dateComponents = DateComponents()
-    dateComponents.hour = 10
+    dateComponents.hour = 15
     dateComponents.minute = 30
     dateComponents.day = 02
     let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
