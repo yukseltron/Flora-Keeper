@@ -14,12 +14,6 @@ struct PlantRow: View {
                 .italic()
                 .padding(.bottom, -4)
             Spacer()
-
-            if plant.isFavorite {
-                Image(systemName: "house.fill")
-                    .imageScale(.medium)
-                    .foregroundColor(.green)
-            }
         }
     }
 }

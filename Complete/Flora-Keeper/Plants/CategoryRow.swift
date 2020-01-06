@@ -71,11 +71,17 @@ struct CategoryItem: View {
                 .frame(width: 155, height: 155)
                 .cornerRadius(20)
             
-            Text(plant.species)
+            Text(plant.name)
                 .foregroundColor(.primary)
                 .font(.body)
+                .padding(.leading, 10)
+            
+            Text(plant.species)
+                .foregroundColor(.primary)
+                .font(.footnote)
                 .italic()
                 .padding(.leading, 10)
+                .padding(.top, 5)
                 
         }
         .padding(10)

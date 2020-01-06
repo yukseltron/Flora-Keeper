@@ -31,7 +31,7 @@ struct PlantDetail: View {
             VStack(alignment: .leading) {
                 HStack() {
                     Text(verbatim: "Light\t")
-                        .font(.title)
+                        .font(.body)
                     
                     
                     if (plant.lightLevel.rawValue == "low") {
@@ -75,7 +75,7 @@ struct PlantDetail: View {
                 
                 HStack() {
                     Text(verbatim: "Water\t")
-                        .font(.title)
+                        .font(.body)
                     
                     
                     if (plant.waterLevel.rawValue == "low") {
@@ -142,6 +142,7 @@ struct PlantDetail: View {
                 }
             }){
                 Text("Set Reminder").foregroundColor(.blue)
+                
             }
         }
     }
@@ -157,8 +158,9 @@ struct PlantDetail: View {
         content.sound = UNNotificationSound.default
 
         var dateComponents = DateComponents()
-        dateComponents.hour = 21
-        dateComponents.minute = 04
+        dateComponents.hour = 10
+        dateComponents.minute = 30
+        dateComponents.day = 02
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
 
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
@@ -185,7 +187,7 @@ struct PlantDetail: View {
         rkManager3.colors.weekdayHeaderColor = Color.blue
         rkManager3.colors.monthHeaderColor = Color.green
         rkManager3.colors.textColor = Color.blue
-        rkManager3.colors.disabledColor = Color.red
+        rkManager3.colors.disabledColor = Color.green
     }
     
     func getTextFromDate(date: Date!) -> String {
