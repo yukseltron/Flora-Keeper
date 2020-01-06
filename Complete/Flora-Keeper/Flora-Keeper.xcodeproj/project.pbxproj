@@ -33,6 +33,9 @@
 		ED12D01923C2C34300AF506F /* RKDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01223C2C34300AF506F /* RKDate.swift */; };
 		ED12D01A23C2C34400AF506F /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01323C2C34300AF506F /* RKViewController.swift */; };
 		ED12D01B23C2C34400AF506F /* RKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01423C2C34300AF506F /* RKManager.swift */; };
+		ED12D01D23C382F000AF506F /* PlantEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01C23C382F000AF506F /* PlantEditor.swift */; };
+		ED12D01F23C3831F00AF506F /* AddPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01E23C3831F00AF506F /* AddPlant.swift */; };
+		ED12D02123C387D800AF506F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D02023C387D800AF506F /* Coordinator.swift */; };
 		ED44BB37238743790050D901 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44BB36238743790050D901 /* Weather.swift */; };
 		ED44BB4023887B430050D901 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3A23887B430050D901 /* 10.jpg */; };
 		ED44BB4123887B430050D901 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED44BB3B23887B430050D901 /* 2.jpg */; };
@@ -79,6 +82,9 @@
 		ED12D01223C2C34300AF506F /* RKDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKDate.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKDate.swift; sourceTree = "<group>"; };
 		ED12D01323C2C34300AF506F /* RKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKViewController.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKViewController.swift; sourceTree = "<group>"; };
 		ED12D01423C2C34300AF506F /* RKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKManager.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKManager.swift; sourceTree = "<group>"; };
+		ED12D01C23C382F000AF506F /* PlantEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantEditor.swift; sourceTree = "<group>"; };
+		ED12D01E23C3831F00AF506F /* AddPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlant.swift; sourceTree = "<group>"; };
+		ED12D02023C387D800AF506F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		ED44BB36238743790050D901 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		ED44BB3A23887B430050D901 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		ED44BB3B23887B430050D901 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -151,10 +157,13 @@
 				ED44BB48238886400050D901 /* CurrentWeather.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
 				B7D587D122A0892C006E8DCF /* Home.swift */,
+				ED12D02023C387D800AF506F /* Coordinator.swift */,
 				B7D587D322A08965006E8DCF /* CategoryRow.swift */,
+				B7394869229F194000C47603 /* PlantDetail.swift */,
+				ED12D01E23C3831F00AF506F /* AddPlant.swift */,
+				ED12D01C23C382F000AF506F /* PlantEditor.swift */,
 				B73948A0229F2E1F00C47603 /* PlantList.swift */,
 				B739489E229F2D9700C47603 /* PlantRow.swift */,
-				B7394869229F194000C47603 /* PlantDetail.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
 				B7394883229F291A00C47603 /* Resources */,
 				B739486B229F194200C47603 /* Assets.xcassets */,
@@ -337,11 +346,14 @@
 				B7D587DB22A08D67006E8DCF /* ProfileSummary.swift in Sources */,
 				B7D2AAC5229F4D7C0061E5F5 /* UserData.swift in Sources */,
 				ED85F2D123ABF429009F3C63 /* PlantData.swift in Sources */,
+				ED12D02123C387D800AF506F /* Coordinator.swift in Sources */,
+				ED12D01D23C382F000AF506F /* PlantEditor.swift in Sources */,
 				B7394881229F28B900C47603 /* Plant.swift in Sources */,
 				ED44BB49238886400050D901 /* CurrentWeather.swift in Sources */,
 				ED12D01B23C2C34400AF506F /* RKManager.swift in Sources */,
 				ED12D01723C2C34300AF506F /* RKCell.swift in Sources */,
 				B7D587DF22A08E1A006E8DCF /* ProfileEditor.swift in Sources */,
+				ED12D01F23C3831F00AF506F /* AddPlant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,3 +34,23 @@ struct ProfileSummary_Previews: PreviewProvider {
         ProfileSummary(profile: Profile.default)
     }
 }
+
+func scheduleNotification(name: String, quantity: String) {
+    let center = UNUserNotificationCenter.current()
+
+    let content = UNMutableNotificationContent()
+    content.title = name + " might be thirsty!"
+    content.body = "Check their soil, they prefer a " + quantity + " amount of water."
+    content.categoryIdentifier = "alarm"
+    content.userInfo = ["customData": "fizzbuzz"]
+    content.sound = UNNotificationSound.default
+
+    var dateComponents = DateComponents()
+    dateComponents.hour = 10
+    dateComponents.minute = 30
+    dateComponents.day = 02
+    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+
+    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+    center.add(request)
+}

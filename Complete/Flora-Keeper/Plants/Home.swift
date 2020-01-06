@@ -38,12 +38,12 @@ struct CategoryHome: View {
     var addNewPlantButton: some View {
         Button(action: { self.showingNewPlant.toggle() }) {
             HStack(spacing: 50) {
-                Text("Today's weather")
-                    .font(.headline)
-                    .fontWeight(.regular)
-                    .foregroundColor(Color.blue)
+                Text("Add new plant")
+                    .foregroundColor(.blue)
+                Image(systemName: "plus.circle")
+                    .imageScale(.large)
+                    .accessibility(label: Text("User Profile"))
             }
-            .padding([.top, .leading])
         }
     }
 
@@ -55,8 +55,9 @@ struct CategoryHome: View {
                     
                 addNewPlantButton
                 .sheet(isPresented: $showingNewPlant) {
-                    CurrentWeather()
+                    AddPlant()
                 }
+                .padding(.leading)
             
 
                 CategoryRow(categoryName: "Moist", items: self.categories["high"]!)
@@ -73,7 +74,7 @@ struct CategoryHome: View {
                 .padding()
                 
             }
-            .navigationBarTitle(Text("Home"))
+            .navigationBarTitle(Text("Plants"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
                 ProfileHost().environmentObject(self.userData)

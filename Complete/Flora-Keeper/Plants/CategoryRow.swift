@@ -39,8 +39,6 @@ struct CategoryRow: View {
             .padding(.top, 15)
             .padding(.bottom, 5)
             
-            Divider()
-            
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { plant in
