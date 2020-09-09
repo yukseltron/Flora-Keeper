@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,13 +26,7 @@
 		B7D587D922A08D33006E8DCF /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587D822A08D33006E8DCF /* ProfileHost.swift */; };
 		B7D587DB22A08D67006E8DCF /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587DA22A08D67006E8DCF /* ProfileSummary.swift */; };
 		B7D587DF22A08E1A006E8DCF /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D587DE22A08E1A006E8DCF /* ProfileEditor.swift */; };
-		ED12D01523C2C34300AF506F /* RKColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D00E23C2C34300AF506F /* RKColorSettings.swift */; };
-		ED12D01623C2C34300AF506F /* RKWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D00F23C2C34300AF506F /* RKWeekdayHeader.swift */; };
-		ED12D01723C2C34300AF506F /* RKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01023C2C34300AF506F /* RKCell.swift */; };
-		ED12D01823C2C34300AF506F /* RKMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01123C2C34300AF506F /* RKMonth.swift */; };
-		ED12D01923C2C34300AF506F /* RKDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01223C2C34300AF506F /* RKDate.swift */; };
-		ED12D01A23C2C34400AF506F /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01323C2C34300AF506F /* RKViewController.swift */; };
-		ED12D01B23C2C34400AF506F /* RKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01423C2C34300AF506F /* RKManager.swift */; };
+		C688A6EF23E8B0A0002B6B19 /* RKCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = C688A6EE23E8B0A0002B6B19 /* RKCalendar */; };
 		ED12D01D23C382F000AF506F /* PlantEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01C23C382F000AF506F /* PlantEditor.swift */; };
 		ED12D01F23C3831F00AF506F /* AddPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D01E23C3831F00AF506F /* AddPlant.swift */; };
 		ED12D02123C387D800AF506F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12D02023C387D800AF506F /* Coordinator.swift */; };
@@ -76,13 +70,6 @@
 		B7D587D822A08D33006E8DCF /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		B7D587DA22A08D67006E8DCF /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		B7D587DE22A08E1A006E8DCF /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
-		ED12D00E23C2C34300AF506F /* RKColorSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKColorSettings.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKColorSettings.swift; sourceTree = "<group>"; };
-		ED12D00F23C2C34300AF506F /* RKWeekdayHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKWeekdayHeader.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKWeekdayHeader.swift; sourceTree = "<group>"; };
-		ED12D01023C2C34300AF506F /* RKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKCell.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKCell.swift; sourceTree = "<group>"; };
-		ED12D01123C2C34300AF506F /* RKMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKMonth.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKMonth.swift; sourceTree = "<group>"; };
-		ED12D01223C2C34300AF506F /* RKDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKDate.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKDate.swift; sourceTree = "<group>"; };
-		ED12D01323C2C34300AF506F /* RKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKViewController.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKViewController.swift; sourceTree = "<group>"; };
-		ED12D01423C2C34300AF506F /* RKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKManager.swift; path = ../../../../../../../../../Downloads/RKCalendar/RKCalendar/Manager/RKManager.swift; sourceTree = "<group>"; };
 		ED12D01C23C382F000AF506F /* PlantEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantEditor.swift; sourceTree = "<group>"; };
 		ED12D01E23C3831F00AF506F /* AddPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlant.swift; sourceTree = "<group>"; };
 		ED12D02023C387D800AF506F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -107,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C688A6EF23E8B0A0002B6B19 /* RKCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +140,6 @@
 		B7394864229F194000C47603 /* Plants */ = {
 			isa = PBXGroup;
 			children = (
-				ED12CFD323C2BD5A00AF506F /* Manager */,
 				B739487E229F282200C47603 /* Models */,
 				B7D587D722A08D16006E8DCF /* Profiles */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
@@ -233,20 +220,6 @@
 			path = Profiles;
 			sourceTree = "<group>";
 		};
-		ED12CFD323C2BD5A00AF506F /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				ED12D01023C2C34300AF506F /* RKCell.swift */,
-				ED12D00E23C2C34300AF506F /* RKColorSettings.swift */,
-				ED12D01223C2C34300AF506F /* RKDate.swift */,
-				ED12D01423C2C34300AF506F /* RKManager.swift */,
-				ED12D01123C2C34300AF506F /* RKMonth.swift */,
-				ED12D01323C2C34300AF506F /* RKViewController.swift */,
-				ED12D00F23C2C34300AF506F /* RKWeekdayHeader.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,6 +236,9 @@
 			dependencies = (
 			);
 			name = Landmarks;
+			packageProductDependencies = (
+				C688A6EE23E8B0A0002B6B19 /* RKCalendar */,
+			);
 			productName = Landmarks;
 			productReference = B7394862229F194000C47603 /* Flora-Keeper.app */;
 			productType = "com.apple.product-type.application";
@@ -291,6 +267,9 @@
 				Base,
 			);
 			mainGroup = B7394859229F194000C47603;
+			packageReferences = (
+				C688A6ED23E8B0A0002B6B19 /* XCRemoteSwiftPackageReference "RKCalendar" */,
+			);
 			productRefGroup = B7394863229F194000C47603 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -329,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED12D01623C2C34300AF506F /* RKWeekdayHeader.swift in Sources */,
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				B7D587D922A08D33006E8DCF /* ProfileHost.swift in Sources */,
@@ -339,13 +317,9 @@
 				B73948A1229F2E1F00C47603 /* PlantList.swift in Sources */,
 				B7D587D222A0892C006E8DCF /* Home.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
-				ED12D01523C2C34300AF506F /* RKColorSettings.swift in Sources */,
-				ED12D01923C2C34300AF506F /* RKDate.swift in Sources */,
 				ED9E77AC23C3D08200F570FC /* WeekdayPicker.swift in Sources */,
 				ED44BB37238743790050D901 /* Weather.swift in Sources */,
-				ED12D01A23C2C34400AF506F /* RKViewController.swift in Sources */,
 				B739486A229F194000C47603 /* PlantDetail.swift in Sources */,
-				ED12D01823C2C34300AF506F /* RKMonth.swift in Sources */,
 				B739489F229F2D9700C47603 /* PlantRow.swift in Sources */,
 				B7D587DB22A08D67006E8DCF /* ProfileSummary.swift in Sources */,
 				B7D2AAC5229F4D7C0061E5F5 /* UserData.swift in Sources */,
@@ -354,8 +328,6 @@
 				ED12D01D23C382F000AF506F /* PlantEditor.swift in Sources */,
 				B7394881229F28B900C47603 /* Plant.swift in Sources */,
 				ED44BB49238886400050D901 /* CurrentWeather.swift in Sources */,
-				ED12D01B23C2C34400AF506F /* RKManager.swift in Sources */,
-				ED12D01723C2C34300AF506F /* RKCell.swift in Sources */,
 				B7D587DF22A08E1A006E8DCF /* ProfileEditor.swift in Sources */,
 				ED12D01F23C3831F00AF506F /* AddPlant.swift in Sources */,
 			);
@@ -557,6 +529,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C688A6ED23E8B0A0002B6B19 /* XCRemoteSwiftPackageReference "RKCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdtzmn/RKCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C688A6EE23E8B0A0002B6B19 /* RKCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C688A6ED23E8B0A0002B6B19 /* XCRemoteSwiftPackageReference "RKCalendar" */;
+			productName = RKCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B739485A229F194000C47603 /* Project object */;
 }
